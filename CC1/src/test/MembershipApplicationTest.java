@@ -2,7 +2,7 @@ package test;
 
 import main.domain.Address;
 import main.domain.Member;
-import main.infrastructure.CreditCardPayment;
+import main.infrastructure.CreditCardPaymentStrategy;
 import main.infrastructure.MembershipApply;
 
 public class MembershipApplicationTest {
@@ -13,7 +13,7 @@ public class MembershipApplicationTest {
 
         Member member = Member.of("BEKKOUCHE", "Inas", 21, address);
 
-        CreditCardPayment card = new CreditCardPayment("BEKKOUCHE","20/01/2022","1234567890987" );
+        CreditCardPaymentStrategy card = new CreditCardPaymentStrategy("BEKKOUCHE","20/01/2022","1234567890987" );
         MembershipApply membership = new MembershipApply(member);
         membership.verifyApplication();
         member.setCard(card);
@@ -24,7 +24,7 @@ public class MembershipApplicationTest {
 
         Member member2 = Member.of("KECHIOUCH", "Inas", 21, address2);
 
-        CreditCardPayment card2 = new CreditCardPayment("KECHIOUCH","20/01/2025","12567890987" );
+        CreditCardPaymentStrategy card2 = new CreditCardPaymentStrategy("KECHIOUCH","20/01/2025","12567890987" );
         MembershipApply membership2 = new MembershipApply(member2);
         membership2.verifyApplication();
         member2.setCard(card2);
@@ -33,9 +33,9 @@ public class MembershipApplicationTest {
     System.out.println("----------Test 3--------");
     Address address3 = Address.of(1, "pablo picasso","Paris");
 
-    Member member3 = Member.of("ALZOSKY", "Inas", 17, address);
+    Member member3 = Member.of("ALZOSKY", "Inas", 17, address3);
 
-    CreditCardPayment card3 = new CreditCardPayment("ALZOKSY","20/01/2022","12567890987" );
+    CreditCardPaymentStrategy card3 = new CreditCardPaymentStrategy("ALZOKSY","20/01/2022","12567890987" );
     MembershipApply membership3 = new MembershipApply(member3);
         membership3.verifyApplication();
         member3.setCard(card3);

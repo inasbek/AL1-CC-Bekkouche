@@ -1,8 +1,8 @@
 package main.infrastructure;
 
-public class AgeValidation implements MembershipApplication{
+public class AgeValidationStrategy implements MembershipApplication{
     int age;
-    public AgeValidation(int age){
+    public AgeValidationStrategy(int age){
         this.age = age;
     }
     @Override

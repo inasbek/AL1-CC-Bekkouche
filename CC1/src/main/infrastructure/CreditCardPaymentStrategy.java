@@ -1,18 +1,18 @@
 package main.infrastructure;
 
 
-public class CreditCardPayment implements Payment{
+public class CreditCardPaymentStrategy implements Payment{
     String cardName,expirationDate,cardNumber;
     Double amount;
 
-    public CreditCardPayment(Double amount,String cardName,String expirationDate, String cardNumber){
+    public CreditCardPaymentStrategy(Double amount,String cardName,String expirationDate, String cardNumber){
         this.cardName = cardName;
         this.cardNumber = cardNumber;
         this.expirationDate = expirationDate;
         this.amount = amount;
     }
 
-    public CreditCardPayment(String cardName,String expirationDate, String cardNumber){
+    public CreditCardPaymentStrategy(String cardName,String expirationDate, String cardNumber){
         this.cardName = cardName;
         this.cardNumber = cardNumber;
         this.expirationDate = expirationDate;

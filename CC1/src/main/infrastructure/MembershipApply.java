@@ -7,12 +7,12 @@ import java.util.ArrayList;
 
 public final class MembershipApply implements MembershipApplication {
     Member member;
-    AgeValidation ageValidation;
+    AgeValidationStrategy ageValidation;
     Boolean isValid;
     Tradesman tradesman ;
     public MembershipApply(Member member){
         this.member = member;
-        ageValidation = new AgeValidation(member.getAge());
+        ageValidation = new AgeValidationStrategy(member.getAge());
     }
 
 

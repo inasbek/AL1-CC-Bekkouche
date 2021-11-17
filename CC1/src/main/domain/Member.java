@@ -1,20 +1,20 @@
 package main.domain;
 
-import main.infrastructure.CreditCardPayment;
+import main.infrastructure.CreditCardPaymentStrategy;
 
 public final class Member {
     private final String lastname;
     private final String firstname;
     private final int age;
     private final Address address;
-    private CreditCardPayment card;
+    private CreditCardPaymentStrategy card;
     public Member(String lastname, String firstname,int age, Address address){
         this.lastname = lastname;
         this.firstname = firstname;
         this.age = age;
         this.address = address;
     }
-    public Member(String lastname, String firstname,int age, Address address,CreditCardPayment Card){
+    public Member(String lastname, String firstname,int age, Address address,CreditCardPaymentStrategy Card){
         this.lastname = lastname;
         this.firstname = firstname;
         this.age = age;
@@ -38,11 +38,11 @@ public final class Member {
 
     public Address getAddress() { return address;}
 
-    public CreditCardPayment getCard() {
+    public CreditCardPaymentStrategy getCard() {
         return card;
     }
 
-    public void setCard(CreditCardPayment cardNumber) {
+    public void setCard(CreditCardPaymentStrategy cardNumber) {
         this.card = cardNumber;
     }
 

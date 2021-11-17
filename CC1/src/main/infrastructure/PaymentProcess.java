@@ -1,10 +1,10 @@
 package main.infrastructure;
 
 public class PaymentProcess implements Payment{
-    CreditCardPayment paymentByCard;
+    CreditCardPaymentStrategy paymentByCard;
     Double amount;
 
-    public PaymentProcess(Double Amount,CreditCardPayment card){
+    public PaymentProcess(Double Amount,CreditCardPaymentStrategy card){
         this.paymentByCard = card;
         this.amount = Amount;
     }
