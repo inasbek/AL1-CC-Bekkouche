@@ -2,26 +2,13 @@ package main.infrastructure;
 
 
 public class CreditCardPaymentStrategy implements Payment{
-    String cardName,expirationDate,cardNumber;
-    Double amount;
+    String cardName,expirationDate,cardNumber, cvv;
 
-    public CreditCardPaymentStrategy(Double amount,String cardName,String expirationDate, String cardNumber){
+    public CreditCardPaymentStrategy(String cardName,String expirationDate, String cardNumber, String CVV){
         this.cardName = cardName;
         this.cardNumber = cardNumber;
         this.expirationDate = expirationDate;
-        this.amount = amount;
-    }
-
-    public CreditCardPaymentStrategy(String cardName,String expirationDate, String cardNumber){
-        this.cardName = cardName;
-        this.cardNumber = cardNumber;
-        this.expirationDate = expirationDate;
-
-    }
-
-
-    public Double getAmount() {
-        return amount;
+        this.cvv = CVV;
     }
 
     public String getCardName() {
@@ -36,12 +23,22 @@ public class CreditCardPaymentStrategy implements Payment{
         return expirationDate;
     }
 
+    public String getCvv() {
+        return cvv;
+    }
+
     @Override
     public Boolean PaymentAllowed() {
         if(cardNumber.length() != 13){
+            System.out.println("Please check your CVV!");
             return false;
-        }else{
-            return true;
         }
+        if(cvv.length() !=3) {
+            System.out.println("Please check your card number!");
+            return false;
+        }
+
+        return true;
+
     }
 }

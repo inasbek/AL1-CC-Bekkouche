@@ -10,6 +10,7 @@ public class AgeValidationStrategy implements MembershipApplication{
         if(this.age >= 18) {
             return true;
         }
+        System.out.println("You must have +18 to apply :( Check your age and repeat...");
         return false;
     }
 }
