@@ -1,0 +1,13 @@
+
+^
+java:S1126"AReplace this if-then-else statement by a single return statement.( ý°Ñ8¿ÉµÓÓ/
+=
+java:S1125"'Remove the unnecessary boolean literal.( ý°Ñ
+B
+java:S1125"'Remove the unnecessary boolean literal.(¼Çáàøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÛÚ´ã
+S	java:S106"9Replace this use of System.out or System.err by a logger.(£æê²øÿÿÿÿ
+k	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Žƒ¥ÿÿÿÿÿ
+E
+java:S5411"*Use the primitive boolean expression here.(¼Çáàøÿÿÿÿ

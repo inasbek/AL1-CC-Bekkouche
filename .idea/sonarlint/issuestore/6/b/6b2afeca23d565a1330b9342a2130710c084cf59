@@ -1,0 +1,22 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(” üÜ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(²À™Þùÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ýÃÉ„ûÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(Ø£›°
+V	java:S125*"<This block of commented-out lines of code should be removed.(æÈ¹™úÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(Ôú¨ˆùÿÿÿÿ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(™Ãëàûÿÿÿÿ
+`
+java:S1192"KDefine a constant instead of duplicating this literal "20/01/2022" 3 times.(©Õ-
+d
+java:S1192#"NDefine a constant instead of duplicating this literal "pablo picasso" 3 times.(’¶³ã
+b
+java:S1192"GDefine a constant instead of duplicating this literal "      " 4 times.(ÞžÒ—üÿÿÿÿ
+a
+java:S1192"FDefine a constant instead of duplicating this literal "Paris" 5 times.(ÿ£óþÿÿÿÿ
+c
+java:S1192%"HDefine a constant instead of duplicating this literal "ALZOSKY" 3 times.(£‘“ûÿÿÿÿ

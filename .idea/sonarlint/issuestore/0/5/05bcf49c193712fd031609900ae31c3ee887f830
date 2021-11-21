@@ -1,0 +1,15 @@
+
+=
+java:S1125"'Remove the unnecessary boolean literal.(ÎÒÑ¡
+=
+java:S1125"'Remove the unnecessary boolean literal.(ÎÒÑ¡
+B
+java:S1125#"'Remove the unnecessary boolean literal.(½İ µøÿÿÿÿ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(ûò³
+B
+java:S1125'"'Remove the unnecessary boolean literal.(ıÿ¶¡ùÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(Ìô‚ğÿÿÿÿÿ
+E
+java:S5411#"*Use the primitive boolean expression here.(½İ µøÿÿÿÿ
+E
+java:S5411'"*Use the primitive boolean expression here.(ıÿ¶¡ùÿÿÿÿ

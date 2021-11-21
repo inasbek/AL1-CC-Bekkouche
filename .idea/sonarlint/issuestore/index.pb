@@ -1,0 +1,25 @@
+
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+X
+(CC1/src/main/infrastructure/Payment.java,8/0/803b46ca5136ee29118296480ba9cd8e5d03d9d2
+f
+6CC1/src/main/infrastructure/AgeValidationStrategy.java,b/8/b88f33fbe9b8a0558f4d20b40a3359c12bf2c1be
+f
+6CC1/src/main/infrastructure/PaypalPaymentStrategy.java,c/3/c313d09f2b5fa339ed0067f183b58d54bc40c9cf
+j
+:CC1/src/main/infrastructure/CreditCardPaymentStrategy.java,3/7/3707d7168152cfb9d7d0a53db7cf2a1a28844ac6
+_
+/CC1/src/main/infrastructure/PaymentProcess.java,d/1/d18eaa92128764aa92ef04724a7841e906e722d8
+`
+0CC1/src/main/infrastructure/MembershipApply.java,0/5/05bcf49c193712fd031609900ae31c3ee887f830
+h
+8CC1/src/main/infrastructure/EmailValidationStrategy.java,4/c/4c275fede38e8752c29b59ad5ff4fdf85c5915ec
+f
+6CC1/src/main/infrastructure/MembershipApplication.java,2/6/267b597874bc7335ff2a092919fc7117d4526f8e
+H
+CC1/cc1_Bekkouche_AL.iml,7/2/7224ab6efd258f1bc200309319c77585f2c02797
+O
+CC1/src/main/domain/Member.java,d/a/dab8409d58eff6d45cf245dd58aae5efff26b38a
+[
++CC1/src/test/MembershipApplicationTest.java,6/b/6b2afeca23d565a1330b9342a2130710c084cf59
